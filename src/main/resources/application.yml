@@ -2,7 +2,7 @@ spring:
   datasource:
     username: postgres
     url: jdbc:postgresql://localhost:5432/tracker
-    password: admin
+    password: postgres
     driver-class-name: org.postgresql.Driver
   jpa:
     show-sql: true
