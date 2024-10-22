@@ -20,7 +20,7 @@ public record ProjectDto(
         @NotNull(message = "Description must be not null.")
         @Length(
                 min = 1,
-                max = 255,
+                max = 2000,
                 message = "Description must be in {min} and {max}."
         )
         String description
