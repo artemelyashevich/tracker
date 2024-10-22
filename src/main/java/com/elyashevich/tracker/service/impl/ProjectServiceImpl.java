@@ -1,8 +1,9 @@
-package com.elyashevich.tracker.service;
+package com.elyashevich.tracker.service.impl;
 
 import com.elyashevich.tracker.entity.Project;
 import com.elyashevich.tracker.exception.ResourceNotFoundException;
 import com.elyashevich.tracker.repository.ProjectRepository;
+import com.elyashevich.tracker.service.ProjectService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
